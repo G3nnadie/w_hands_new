@@ -735,6 +735,9 @@
     height: 74px;
     font-size: 22px;
   }
+  .fast-connection {
+    display: none !important;
+  }
 }
 
 /* Small Devices, Tablets */

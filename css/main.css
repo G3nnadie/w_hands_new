@@ -856,6 +856,35 @@ body {
   padding-top: 68px;
 }
 
+/* Fast connection */
+
+.fast-connection {
+  z-index: 22;
+  position: fixed;
+  background: #fff;
+  top: 50%;right: 0;
+  border-radius: 8px 0 0 8px;
+  padding: 25px 10px 25px 16px;
+  transform: translateY(-50%);
+}
+
+.fast-connection .social__item {
+  display: block;
+  width: 28px;height: 28px;
+}
+
+.fast-connection .social__item:not(:last-child) {
+  margin: 0 0 13px;
+}
+
+
+
+
+
+
+
+
+
 /* ------------ *Default ------------- */
 /* ------------ *Default ------------- */
 /* --------- *Before::After ---------- */
